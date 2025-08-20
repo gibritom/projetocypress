@@ -1,0 +1,55 @@
+{
+    "singup":{
+        "nome": "Gilberto Brito a",
+        "cpf": "00121456981",
+        "email":"gilberto@email.com",
+        "zap":"78988123654",
+        "endereco":{
+            "cep": "41385000",
+            "rua":"Rua da Boa Paz",
+            "numero":"01",
+            "complemento":"casa",
+            "bairro":"Sete de Abril",
+            "cidade_uf":"Salvador/BA"
+        },
+        "metodo_entrega":"Moto",
+        "metodo_entrega":"Van/Carro",
+        "cnh": "cnh-digital.jpg"
+    },
+    "cpf_invalido":{
+        "nome": "Brito Amorim",
+        "cpf": "00121456981as",
+        "email":"Amorim@email.com",
+        "zap":"71988123654",
+        "endereco":{
+            "cep": "41385000",
+            "rua":"Rua da Boa Paz",
+            "numero":"01",
+            "complemento":"casa",
+            "bairro":"Sete de Abril",
+            "cidade_uf":"Salvador/BA"
+        },
+        "metodo_entrega":"Moto",
+        "metodo_entrega":"Van/Carro",
+        "cnh": "cnh-digital.jpg"
+
+    },
+    "email_invalido":{
+        "nome": "Gilberto Brito a",
+        "cpf": "00121456981",
+        "email":"gilberto.com",
+        "zap":"72988123654",
+        "endereco":{
+            "cep": "41385000",
+            "rua":"Rua da Boa Paz",
+            "numero":"01",
+            "complemento":"casa",
+            "bairro":"Sete de Abril",
+            "cidade_uf":"Salvador/BA"
+        },
+        "metodo_entrega":"Moto",
+        "metodo_entrega":"Van/Carro",
+        "cnh": "cnh-digital.jpg"
+    }  
+}
+
