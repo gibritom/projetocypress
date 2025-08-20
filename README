@@ -1,0 +1,54 @@
+# Projeto Cypress
+
+Automatização de testes end-to-end utilizando Cypress para a aplicação Buger-Eats (ou outro nome do projeto).
+
+
+
+## Índice
+
+- [Descrição](#descrição)
+- [Pré-requisitos](#pré-requisitos)
+- [Instalação](#instalação)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Como Executar os Testes](#como-executar-os-testes)
+
+
+
+## Descrição
+
+Este projeto contém testes automatizados escritos com **Cypress**, destinados a validar fluxos da aplicação (como cadastro, login e navegação). É uma base para a qualidade contínua da aplicação.
+
+
+
+## Pré-requisitos
+
+- Node.js (v14 ou superior)
+- npm ou yarn
+- Cypress adicionada como dependência de desenvolvimento (`devDependencies`)
+
+
+
+## Instalação
+
+1. Clone o repositório:
+   
+   git clone git@github.com:gibritom/projetocypress.git
+   cd projetocypress
+
+
+## Estrturua do projeto
+
+projetocypress/
+├── cypress/
+│ ├── e2e/ # Arquivos de testes
+│ ├── fixtures/ # Dados estáticos
+│ ├── pages/ # Páginas (page objects)
+│ └── support/ # Comandos e configurações globais
+├── cypress.config.js # Configurações do Cypress
+├── package.json
+└── README.md
+
+## Como exeutar
+
+npx cypress open # Abre a interface do cypress
+npx cypress run # Roda os testes em backgound
